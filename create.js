@@ -1,0 +1,49 @@
+db.inventory.insertOne(
+    {
+        item:"Box",
+        qty:100,
+        tags:["small","large","medium"],
+        size:{
+            height:24,
+            width:10,
+            length:15
+        }
+    }
+)
+
+db.inventory.insertMany(
+    [
+        {
+            item:"package",
+            qty:100,
+            tags:["small","large","medium"],
+            size:{
+                height:24,
+                width:10,
+                length:15
+            }
+    
+        },
+        {
+            item:"Dabba",
+            qty:100,
+            tags:["small","large","medium"],
+            size:{
+                height:20,
+                width:10,
+                length:80
+            }    
+        }
+        ,
+        {
+            item:"Tiffin",
+            qty:100,
+            tags:["small","large","medium"],
+            size:{
+                height:2,
+                width:3,
+                length:1
+            }    
+        }
+    ]
+)

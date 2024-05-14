@@ -11,6 +11,7 @@ use <database_name>
 use myDB
 show collections
 show customer
+cls
 
 test> show dbs 
 admin    40.00 KiB
