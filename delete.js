@@ -4,11 +4,11 @@
 
 db.customer.deleteOne({item:"Dabba"})
 
-db.customer.deleteMany({"qty":{$ite:20}})
+db.customer.deleteMany({"qty":{$ite:20}}) //  is less than or equal to 20
 
 db.inventory.remove({item:"Dabba"})
 
-//deletes all the collectionss
+// deletes all the collectionss
 db.customer.deleteMany({})
 
 db.inventory.findOneAndDelete(

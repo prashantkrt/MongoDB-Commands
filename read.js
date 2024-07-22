@@ -6,7 +6,7 @@ db.inventory.find({item:"Box"})
 
 db.inventory.find({}).pretty()
 
-db.inventory.find({tags:{ $in:["small","medium"]}})
+db.inventory.find({tags:{ $in:["small","medium"]}}) // any value
 
 db.inventory.find({"size.length":80})
 
