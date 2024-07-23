@@ -1,0 +1,37 @@
+{
+    "_id": {
+      "$oid": "669e7b009a638b847dd2b93b"
+    },
+    "index": 1,
+    "name": "Kitty Snow",
+    "isActive": false,
+    "registered": {
+      "$date": "2018-01-23T04:46:15Z"
+    },
+    "age": 38,
+    "gender": "female",
+    "eyeColor": "blue",
+    "favoriteFruit": "apple",
+    "company": {
+      "title": "DIGITALUS",
+      "email": "kittysnow@digitalus.com",
+      "phone": "+1 (949) 568-3470",
+      "location": {
+        "country": "Italy",
+        "address": "154 Arlington Avenue"
+      }
+    },
+    "tags": [
+      "ut",
+      "voluptate",
+      "consequat",
+      "consequat",
+      "enim",
+      "id",
+      "deserunt",
+      "et",
+      "duis",
+      "dolor",
+      "velit"
+    ]
+}
